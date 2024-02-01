@@ -26,6 +26,15 @@
         .btn-xl:hover {
             border: 5px solid rgb(119, 22, 22);
         }
+        @media only screen and (max-width: 600px) {
+            .clumn{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                margin-left: 40px;
+                height: 700px;
+            }
+        }
     </style>
 </head>
 
@@ -79,7 +88,7 @@
         <div class="text-center"><img src="about logo.png" alt=""></div>
     </div>
 
-    <div class="text-center">
+    <div class="text-center clumn">
         <button class="btn btn-danger btn-circle btn-xl" data-bs-toggle="modal" data-bs-target="#overviewModal">Over
             View</button>
         <button class="btn btn-danger btn-circle btn-xl" data-bs-toggle="modal" data-bs-target="#ourteamModal">Our
@@ -89,7 +98,7 @@
         <button class="btn btn-danger btn-circle btn-xl" data-bs-toggle="modal"
             data-bs-target="#licenseModal">License</button>
         <button class="btn btn-danger btn-circle btn-xl" data-bs-toggle="modal"
-            data-bs-target="#translationModal">Translations</button>
+            data-bs-target="#translationModal">Data</button>
 
     </div>
 
