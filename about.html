@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>About</title>
+    <style type="text/css">
+        .btn-circle.btn-xl {
+            width: 120px;
+            height: 120px;
+            padding: 13px 18px;
+            border-radius: 60px;
+            font-size: 18px;
+            text-align: center;
+            margin-left: 10px;
+            background-color: red;
+        }
+
+        .btn-xl:hover {
+            border: 5px solid rgb(119, 22, 22);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ITTeacher</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="contact.html">contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <div style="width: 200px;" class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <button class="btn btn-danger" type="submit">Go</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div><img class="img-fluid " style="width: 100%; max-width: 100%; height: auto;" src="aboutphoto.png" alt="image">
+        <div class="text-center"><img src="about logo.png" alt=""></div>
+    </div>
+
+    <div class="text-center">
+        <button class="btn btn-danger btn-circle btn-xl" data-bs-toggle="modal" data-bs-target="#overviewModal">Over
+            View</button>
+        <button class="btn btn-danger btn-circle btn-xl" data-bs-toggle="modal" data-bs-target="#ourteamModal">Our
+            Team</button>
+        <button class="btn btn-danger btn-circle btn-xl" data-bs-toggle="modal" data-bs-target="#ourbrandModal">Our
+            Brands</button>
+        <button class="btn btn-danger btn-circle btn-xl" data-bs-toggle="modal"
+            data-bs-target="#licenseModal">License</button>
+        <button class="btn btn-danger btn-circle btn-xl" data-bs-toggle="modal"
+            data-bs-target="#translationModal">Translations</button>
+
+    </div>
+
+
+
+
+
+    <!-- overview Modal -->
+    <div class="modal fade" id="overviewModal" tabindex="-1" aria-labelledby="overviewModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ExampleModalLabel">Over View</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Information technology (IT) is the use of computers to create, process, store, retrieve, and
+                        exchange all kinds of data[1] and information. IT is typically used within the context of
+                        business operations as opposed to personal or entertainment technologies.[2] IT forms part of
+                        information and communications technology (ICT). [3]An information technology system (IT system)
+                        is generally an information system, a communications system, or, more specifically speaking, a
+                        computer system — including all hardware, software, and peripheral equipment — operated by a
+                        limited group of IT users. </p>
+                    <p class="h3">In 1687</p>
+                    <p> Humans have been storing, retrieving, manipulating, and communicating information since the
+                        Sumerians in Mesopotamia developed writing in about 3000 BC.4 However, the term information
+                        technology in its modern sense first appeared in a 1958 article published in the Harvard
+                        Business Review; authors Harold J. Leavitt and Thomas L. Whisler commented that "the new
+                        technology does not yet have a single established name. We shall call it information technology
+                        (IT). Their definition consists of three categories: techniques for processing, the application
+                        of statistical and mathematical methods to decision-making, and the simulation of higher-order
+                        thinking through computer programs.</p>
+                    <p class="h3">In 1990</p>
+                    <p>Information technology is also a branch of computer science, which can be defined as the overall
+                        study of procedure, structure, and the processing of various types of data. As this field
+                        continues to evolve across the world, the overall priority and importance has also grown, which
+                        is where we begin to see the introduction of computer science-related courses in K-12 education.
+                        However, concerns have been raised about this fact that most schools are lacking
+                        advanced-placement courses in this field.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ourteam Modal -->
+    <div class="modal fade" id="ourteamModal" tabindex="-1" aria-labelledby="ourteamModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ExampleModalLabel">Our Team</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Information technology (IT) is the use of computers to create, process, store, retrieve, and
+                        exchange all kinds of data[1] and information.</p>
+                    <p class="h3">Dr. Akram Sheikh (Director)</p>
+                    <p> Humans have been storing, retrieving, manipulating, and communicating information since the
+                        Sumerians in Mesopotamia developed writing in about 3000 BC.4 However, the term information
+                        technology in its modern sense first appeared in a 1958 article published in the Harvard
+                        Business Review; authors Harold J. Leavitt and Thomas L. Whisler commented that "the new
+                        technology does not yet have a single established name. We shall call it information technology
+                        (IT). Their definition consists of three categories: techniques for processing, the application
+                        of statistical and mathematical methods to decision-making, and the simulation of higher-order
+                        thinking through computer programs.</p>
+                    <p class="h3">Dr. Habib u Salam (Chair Person)</p>
+                    <p>Information technology is also a branch of computer science, which can be defined as the overall
+                        study of procedure, structure, and the processing of various types of data. As this field
+                        continues to evolve across the world.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ourbrand Modal -->
+    <div class="modal fade" id="ourbrandModal" tabindex="-1" aria-labelledby="ourbrandModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ExampleModalLabel">Our Brand</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Information technology (IT) is the use of computers to create, process, store, retrieve, and
+                        exchange all kinds of data[1] and information.</p>
+                    <p class="h3">IT Teacher</p>
+                    <p> Humans have been storing, retrieving, manipulating, and communicating information since the
+                        Sumerians in Mesopotamia developed writing in about 3000 BC.4 However, the term information
+                        technology in its modern sense first appeared in a 1958 article published in the Harvard
+                        Business Review; authors Harold J. Leavitt and Thomas L. Whisler commented that "the new
+                        technology does not yet have a single established name. We shall call it information technology
+                        (IT). Their definition consists of three categories: techniques for processing, the application
+                        of statistical and mathematical methods to decision-making, and the simulation of higher-order
+                        thinking through computer programs.</p>
+                    <p class="h3">IT TechRobo</p>
+                    <p>Information technology is also a branch of computer science, which can be defined as the overall
+                        study of procedure, structure, and the processing of various types of data. As this field
+                        continues to evolve across the world, the overall priority and importance has also grown, which
+                        is where we begin to see the introduction of computer science-related courses in K-12 education.
+                        However, concerns have been raised about this fact that most schools are lacking
+                        advanced-placement courses in this field.</p>
+                    <p class="h3">IT TechCam</p>
+                    <p>Information technology is also a branch of computer science, which can be defined as the overall
+                        study of procedure, structure, and the processing of various types of data. As this field
+                        continues to evolve across the world, the overall priority and importance has also grown, which
+                        is where we begin to see the introduction of computer science-related courses in K-12 education.
+                        However, concerns have been raised about this fact that most schools are lacking
+                        advanced-placement courses in this field.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- license Modal -->
+    <div class="modal fade" id="licenseModal" tabindex="-1" aria-labelledby="licenseModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ExampleModalLabel">Legal License</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>IT is typically used within the context of
+                        business operations as opposed to personal or entertainment technologies.[2] IT forms part of
+                        information and communications technology (ICT).</p>
+                    <p class="h3">2005</p>
+                    <p> Humans have been storing, retrieving, manipulating, and communicating information since the
+                        Sumerians in Mesopotamia developed writing in about 3000 BC.4 However, the term information
+                        technology in its modern sense first appeared in a 1958 article published in the Harvard
+                        Business Review; authors Harold J. Leavitt and Thomas L. Whisler commented that "the new
+                        technology does not yet have a single established name. We shall call it information technology
+                        (IT). Their definition consists of three categories: techniques for processing, the application
+                        of statistical and mathematical methods to decision-making, and the simulation of higher-order
+                        thinking through computer programs.</p>
+                    <p class="h3">In 2010</p>
+                    <p>Information technology is also a branch of computer science, which can be defined as the overall
+                        study of procedure, structure, and the processing of various types of data. As this field
+                        continues to evolve across the world, the overall priority and importance has also grown, which
+                        is where we begin to see the introduction of computer science-related courses in K-12 education.
+                        However, concerns have been raised about this fact that most schools are lacking
+                        advanced-placement courses in this field.</p>
+
+                    <p class="h3">2018 - Onword</p>
+                    <p>Information technology is also a branch of computer science, which can be defined as the overall
+                        study of procedure, structure, and the processing of various types of data. As this field
+                        continues to evolve across the world, the overall priority and importance has also grown, which
+                        is where we begin to see the introduction of computer science-related courses in K-12 education.
+                        However, concerns have been raised about this fact that most schools are lacking
+                        advanced-placement courses in this field.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- translation Modal -->
+    <div class="modal fade" id="translationModal" tabindex="-1" aria-labelledby="translationModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ExampleModalLabel">Translation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Information technology (IT) is the use of computers to create, process, store, retrieve, and
+                        exchange all kinds of data[1] and information. IT is typically used within the context of
+                        business operations as opposed to personal or entertainment technologies.[2] IT forms part of
+                        information and communications technology (ICT). [3]An information technology system (IT system)
+                        is generally an information system, a communications system, or, more specifically speaking, a
+                        computer system — including all hardware, software, and peripheral equipment — operated by a
+                        limited group of IT users. </p>
+                    <p class="h3">In 1687</p>
+                    <p> Humans have been storing, retrieving, manipulating, and communicating information since the
+                        Sumerians in Mesopotamia developed writing in about 3000 BC.4 However, the term information
+                        technology in its modern sense first appeared in a 1958 article published in the Harvard
+                        Business Review; authors Harold J. Leavitt and Thomas L. Whisler commented that "the new
+                        technology does not yet have a single established name. We shall call it information technology
+                        (IT). Their definition consists of three categories: techniques for processing, the application
+                        of statistical and mathematical methods to decision-making, and the simulation of higher-order
+                        thinking through computer programs.</p>
+                    <p class="h3">In 1990</p>
+                    <p>Information technology is also a branch of computer science, which can be defined as the overall
+                        study of procedure, structure, and the processing of various types of data. As this field
+                        continues to evolve across the world, the overall priority and importance has also grown, which
+                        is where we begin to see the introduction of computer science-related courses in K-12 education.
+                        However, concerns have been raised about this fact that most schools are lacking
+                        advanced-placement courses in this field.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer style="margin-top: 44px;" class="container text-center">
+        <p>© 2020 - 2021 IT Teacher, Inc. <a href="#">Privacy</a> <a href="#">Terms</a></p>
+    </footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
